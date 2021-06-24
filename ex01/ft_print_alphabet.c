@@ -2,16 +2,14 @@
 
 void	ft_print_alphabet(void);
 
-int 	main(void)
-{
-	ft_print_alphabet();
-	return (0);
-}
-
 void 	ft_print_alphabet(void)
 {
-	char	*alphabet;
+	char	letter;
 
-	alphabet = "abcdefghijklmnopqrstuvwxyz";
-	write(1, &*alphabet, 26);
+	letter = 'a';
+	while (letter <= 'z' )
+	{
+		write(1, &letter, 1);
+		letter++;
+	}
 }

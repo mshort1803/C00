@@ -1,0 +1,5 @@
+Credentials cache: API:CCEC2C78-7631-441B-BDB4-3F89AA1A9DAB
+        Principal: mshort@42ADEL.ORG.AU
+
+  Issued                Expires               Principal
+Jun 21 11:20:48 2021  Jun 21 21:20:26 2021  krbtgt/42ADEL.ORG.AU@42ADEL.ORG.AU
